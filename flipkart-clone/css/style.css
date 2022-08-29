@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+Header {
+    background:var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 85px;
+    padding: 0px 23px;
+}
+
+nav ul{
+    height: 15vh;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+nav ul li{
+    list-style: none;
+    padding:0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;                    
+}
+ ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width:25vw;
+    height: 20px;
+    border-radius:5px;
+    padding:0px 10px;
+    font-family: 'Roboto Slab', serif;
+    margin:0px 10px 0px 60px;
+} 
+.silder img{
+    padding:20px 60px;
+    width:90vw;
+
+}
+
+main{
+    height: 160vh;
+    display: flex;
+
+}
+.slider{
+    height:20vh;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px;
+}
+
+.cards{
+    display: flex; 
+    overflow:scroll;
+    margin:2px;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+}
+h3{
+    
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+footer {
+    background: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
